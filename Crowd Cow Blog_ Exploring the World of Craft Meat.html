@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>
+Crowd Cow Blog: Exploring the World of Craft Meat
+</title>
+<meta charset='utf-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<script>window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","errorBeacon":"bam-cell.nr-data.net","licenseKey":"966a2a6aea","applicationID":"113642808","transactionName":"el4KQxMMCF4EQ0lVVFZWS14PBwFK","queueTime":2,"applicationTime":237,"agent":""}</script>
+<script>(window.NREUM||(NREUM={})).loader_config={xpid:"VQAPVFJbARABVVJUAwMPVlw=",licenseKey:"966a2a6aea",applicationID:"113642808"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var i,o=t("ee"),a=t(24),c={};try{i=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,i.indexOf("dev")!==-1&&(c.dev=!0),i.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&o.on("internal-error",function(t){r(t.stack)}),c.dev&&o.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,c){try{p?p-=1:i(c||new UncaughtException(t,e,n),!0)}catch(f){try{o("ierr",[f,s.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function i(t,e){var n=e?null:s.now();o("err",[t,n])}var o=t("handle"),a=t(25),c=t("ee"),s=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(9),t(8),"addEventListener"in window&&t(5),s.xhrWrappable&&t(10),d=!0)}c.on("fn-start",function(t,e,n){d&&(p+=1)}),c.on("fn-err",function(t,e,n){d&&!n[l]&&(f(n,l,function(){return!0}),this.thrown=!0,i(n))}),c.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),c.on("internal-error",function(t){o("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var i=t("ee"),o=t("handle"),a=t(9),c=t(8),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(7),"addEventListener"in window&&t(5);var x=NREUM.o.EV;i.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),i.on(w,function(t,e){var n=t[0];n instanceof x&&o("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),this.bstType])}),c.on(m,function(){this.bstStart=y.now()}),c.on(w,function(t,e){o(v,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),i.on(g+p,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),i.on(g+h,function(t){o("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){o(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&i(e)}function i(t){c.inPlace(t,[u,d],"-",o)}function o(t,e){return t[1]}var a=t("ee").get("events"),c=t("wrap-function")(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(i(window),i(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=o(arguments),e={};i.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var c=r.apply(this,t);return i.emit(n+"start",[t,a],c),c.then(function(t){return i.emit(n+"end",[null,t],c),t},function(t){throw i.emit(n+"end",[t],c),t})})}var i=t("ee").get("fetch"),o=t(25),a=t(24);e.exports=i;var c=window,s="fetch-",f=s+"body-",u=["arrayBuffer","blob","json","text","formData"],d=c.Request,l=c.Response,p=c.fetch,h="prototype",m="nr@context";d&&l&&p&&(a(u,function(t,e){r(d[h],e,f),r(l[h],e,f)}),r(c,"fetch",s),i.on(s+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),i.emit(s+"done",[null,e],n)}else i.emit(s+"done",[t],n)}))},{}],7:[function(t,e,n){var r=t("ee").get("history"),i=t("wrap-function")(r);e.exports=r;var o=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;o&&o.pushState&&o.replaceState&&(a=o),i.inPlace(a,["pushState","replaceState"],"-")},{}],8:[function(t,e,n){var r=t("ee").get("raf"),i=t("wrap-function")(r),o="equestAnimationFrame";e.exports=r,i.inPlace(window,["r"+o,"mozR"+o,"webkitR"+o,"msR"+o],"raf-"),r.on("raf-start",function(t){t[0]=i(t[0],"fn-")})},{}],9:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function i(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var o=t("ee").get("timer"),a=t("wrap-function")(o),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=o,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),o.on(s+u,r),o.on(c+u,i)},{}],10:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function i(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",c)}function o(t){y.push(t),h&&(b?b.then(a):w?w(a):(E=-E,R.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(5);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(v,i,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),o(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!w&&!m){var E=1,R=document.createTextNode(E);new h(a).observe(R,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],11:[function(t,e,n){function r(t){if(!c(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,f=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var h=p.generateSpanId(),m=p.generateTraceId(),w=Date.now(),v={spanId:h,traceId:m,timestamp:w};return(t.sameOrigin||s(t)&&l())&&(v.traceContextParentHeader=i(h,m),v.traceContextStateHeader=o(h,w,n,r,f)),(t.sameOrigin&&!u()||!t.sameOrigin&&s(t)&&d())&&(v.newrelicHeader=a(h,m,w,n,r,f)),v}function i(t,e){return"00-"+e+"-"+t+"-01"}function o(t,e,n,r,i){var o=0,a="",c=1,s="",f="";return i+"@nr="+o+"-"+c+"-"+n+"-"+r+"-"+t+"-"+a+"-"+s+"-"+f+"-"+e}function a(t,e,n,r,i,o){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var c={v:[0,1],d:{ty:"Browser",ac:r,ap:i,id:t,tr:e,ti:n}};return o&&r!==o&&(c.d.tk=o),btoa(JSON.stringify(c))}function c(t){return f()&&s(t)}function s(t){var e=!1,n={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(n=NREUM.init.distributed_tracing),t.sameOrigin)e=!0;else if(n.allowed_origins instanceof Array)for(var r=0;r<n.allowed_origins.length;r++){var i=h(n.allowed_origins[r]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return e}function f(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.enabled}function u(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.exclude_newrelic_header}function d(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&NREUM.init.distributed_tracing.cors_use_newrelic_header!==!1}function l(){return"init"in NREUM&&"distributed_tracing"in NREUM.init&&!!NREUM.init.distributed_tracing.cors_use_tracecontext_headers}var p=t(21),h=t(13);e.exports={generateTracePayload:r,shouldGenerateTrace:c}},{}],12:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):o(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=s(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function o(t,e){t.params.status=e.status;var n=w(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(13),f=t(11).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],l=d.length,p=t("id"),h=t(17),m=t(16),w=t(14),v=window.XMLHttpRequest;a.features.xhr=!0,t(10),t(6),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){o(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);if(n){var r=!1;n.newrelicHeader&&(e.setRequestHeader("newrelic",n.newrelicHeader),r=!0),n.traceContextParentHeader&&(e.setRequestHeader("traceparent",n.traceContextParentHeader),n.traceContextStateHeader&&e.setRequestHeader("tracestate",n.traceContextStateHeader),r=!0),r&&(this.dt=n)}}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],i=this;if(n&&r){var o=m(r);o&&(n.txSize=o)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||i.loadCaptureCalled||(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<l;c++)e.addEventListener(d[c],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof v&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof v&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){function e(t,e){var n=!1;return e.newrelicHeader&&(t.set("newrelic",e.newrelicHeader),n=!0),e.traceContextParentHeader&&(t.set("traceparent",e.traceContextParentHeader),e.traceContextStateHeader&&t.set("tracestate",e.traceContextStateHeader),n=!0),n}var n,r=t[1]||{};"string"==typeof t[0]?n=t[0]:t[0]&&t[0].url?n=t[0].url:window.URL&&t[0]&&t[0]instanceof URL&&(n=t[0].href),n&&(this.parsedOrigin=s(n),this.sameOrigin=this.parsedOrigin.sameOrigin);var i=f(this.parsedOrigin);if(i&&(i.newrelicHeader||i.traceContextParentHeader))if("string"==typeof t[0]||window.URL&&t[0]&&t[0]instanceof URL){var o={};for(var a in r)o[a]=r[a];o.headers=new Headers(r.headers||{}),e(o.headers,i)&&(this.dt=i),t.length>1?t[1]=o:t.push(o)}else t[0]&&t[0].headers&&e(t[0].headers,i)&&(this.dt=i)})}},{}],13:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,i={};e.href=t,i.port=e.port;var o=e.href.split("://");!i.port&&o[1]&&(i.port=o[1].split("/")[0].split("@").pop().split(":")[1]),i.port&&"0"!==i.port||(i.port="https"===o[0]?"443":"80"),i.hostname=e.hostname||n.hostname,i.pathname=e.pathname,i.protocol=o[0],"/"!==i.pathname.charAt(0)&&(i.pathname="/"+i.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,c=e.hostname===document.domain&&e.port===n.port;return i.sameOrigin=a&&(!e.hostname||c),"/"===i.pathname&&(r[t]=i),i}},{}],14:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?i(t.response):"text"===n||""===n||void 0===n?i(t.responseText):void 0}var i=t(16);e.exports=r},{}],15:[function(t,e,n){function r(){}function i(t,e,n){return function(){return o(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var o=t("handle"),a=t(24),c=t(25),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=i(l+e,!0,"api")}),u.addPageAction=i(l+"addPageAction",!0),u.setCurrentRouteName=i(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((i?"":"no-")+"fn-start",[f.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw s.emit("fn-err",[arguments,this,t],n),t}finally{s.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=i(p+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),o("err",[t,f.now(),!1,e])}},{}],16:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],17:[function(t,e,n){var r=0,i=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);i&&(r=+i[1]),e.exports=r},{}],18:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(26);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],19:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?d("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&d("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||d("cls",[t])})}function a(t){if(t instanceof h&&!w){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),w=!0,d("timing",["fi",e,n])}}function c(t){d("pageHide",[l.now(),t])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var s,f,u,d=t("handle"),l=t("loader"),p=t(23),h=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(m){}f=new PerformanceObserver(i);try{f.observe({entryTypes:["largest-contentful-paint"]})}catch(m){}u=new PerformanceObserver(o);try{u.observe({type:"layout-shift",buffered:!0})}catch(m){}}if("addEventListener"in document){var w=!1,v=["click","keydown","mousedown","pointerdown","touchstart"];v.forEach(function(t){document.addEventListener(t,a,!1)})}p(c)}},{}],21:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var i,o="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",c=0;c<o.length;c++)i=o[c],"x"===i?a+=t().toString(16):"y"===i?(i=3&t()|8,a+=i.toString(16)):a+=i;return a}function i(){return a(16)}function o(){return a(32)}function a(t){function e(){return n?15&n[r++]:16*Math.random()|0}var n=null,r=0,i=window.crypto||window.msCrypto;i&&i.getRandomValues&&Uint8Array&&(n=i.getRandomValues(new Uint8Array(31)));for(var o=[],a=0;a<t;a++)o.push(e().toString(16));return o.join("")}e.exports={generateUuid:r,generateSpanId:i,generateTraceId:o}},{}],22:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,s=c.match(a);s&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=s[1])}e.exports={agent:i,version:o,match:r}},{}],23:[function(t,e,n){function r(t){function e(){t(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,e,!1)}e.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],24:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],25:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],26:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?f(t,s,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!p.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),s=m(n),f=s.length,u=0;u<f;u++)s[u].apply(c,r);var l=d[y[n]];return l&&l.push([x,n,r,c]),c}}function o(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function w(t){return l[t]=l[t]||i(n)}function v(t,e){u(t,function(t,n){e=e||"feature",y[n]=e,e in d||(d[e]=[])})}var g={},y={},x={on:o,addEventListener:o,removeEventListener:h,emit:n,get:w,listeners:m,context:e,buffer:v,abort:c,aborted:!1};return x}function o(t){return f(t,s,a)}function a(){return new r}function c(){(d.api||d.feature)&&(p.aborted=!0,d=p.backlog={})}var s="nr@context",f=t("gos"),u=t(24),d={},l={},p=e.exports=i();e.exports.getOrSetContext=o,p.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=b.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return f.abort();s(y,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=t(18),c=t("handle"),s=t(24),f=t("ee"),u=t(22),d=t(19),l=window,p=l.document,h="addEventListener",m="attachEvent",w=l.XMLHttpRequest,v=w&&w.prototype;if(d(l.location)){NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:w,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1208.min.js"},x=w&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),b=e.exports={offset:a.getLastTimestamp(),now:a,origin:g,features:{},xhrWrappable:x,userAgent:u};t(15),t(20),p[h]?(p[h]("DOMContentLoaded",o,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",i),l[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,s,f){function nrWrapper(){var o,a,u,l;try{a=this,o=d(arguments),u="function"==typeof r?r(o,a):r||{}}catch(p){i([p,"",[o,a,s],u],t)}c(n+"start",[o,a,s],u,f);try{return l=e.apply(a,o)}catch(h){throw c(n+"err",[o,a,h],u,f),h}finally{c(n+"end",[o,a,l],u,f)}}return a(e)?e:(n||(n=""),nrWrapper[l]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,s,f,u="-"===r.charAt(0);for(f=0;f<e.length;f++)s=e[f],c=t[s],a(c)||(t[s]=n(c,u?s+r:r,i,s,o))}function c(n,r,o,a){if(!h||e){var c=h;h=!0;try{t.emit(n,r,o,e,a)}catch(s){i([s,n,r,o],t)}h=c}}return t||(t=u),n.inPlace=r,n.flag=l,n}function i(t,e){e||(e=u);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)p.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[l])}function c(t,e){var n=e(t);return n[l]=t,o(t,n,u),n}function s(t,e,n){var r=t[e];t[e]=c(r,n)}function f(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var u=t("ee"),d=t(25),l="nr@original",p=Object.prototype.hasOwnProperty,h=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=s,e.exports.argsToArray=f},{}]},{},["loader",2,12,4,3]);</script>
+<meta content='width=device-width, initial-scale=1, user-scalable=yes' name='viewport'>
+<link as='style' href='https://use.fontawesome.com/releases/v5.14.0/css/all.css' rel='preload'>
+<link as='style' href='https://fonts.googleapis.com/css?family=Montserrat:400,600,700&amp;display=swap' rel='preload'>
+<link as='style' href='/crowdcowicon/css/crowdcowicon.css?t=7' rel='preload'>
+<link as='font' crossorigin href='/crowdcowicon/font/crowdcowicon.woff2?94628176' rel='preload'>
+<link as='font' crossorigin href='/crowdcowicon/font/crowdcowicon.woff?94628176' rel='preload'>
+<script>
+  dataLayer = [];
+  dataLayer.push({
+    'google-analytics-tracking-id': "UA-62949706-1",
+    'analytics-page-content-type': ''
+  });
+</script>
+<script>
+  function user_js() {
+    return null;
+  }
+  
+  function known_user_signed_out() {
+    return false;
+  }
+  
+  function signed_in() {
+    return false;
+  }
+  
+  function not_placeholder_user() {
+    return false;
+  }
+  
+  function is_admin() {
+    return false;
+  }
+  
+  function is_fulfillment_staff() {
+    return false;
+  }
+  
+  function user_token() {
+    return "";
+  }
+  
+  function ahoy_visit_token() {
+    return "4dd93ef0-ae2a-45a6-ad39-f7f51462657d"
+  }
+  
+  function next_url() {
+    return null
+  }
+  
+  window.current_user = user_js();
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MCS7CFP');</script>
+
+
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-MCS7CFP':true});</script>
+<meta content='Crowd Cow Blog - join the craft meat revolution with Crowd Cow, learn to cook, share in the journey and learn where your food comes from (Crowd Cow&#39;s Blog)' name='description'>
+<meta content='466739646818645' property='fb:app_id'>
+<meta content='Crowd Cow' property='og:site_name'>
+<meta content='article' property='og:type'>
+<meta content='https://www.crowdcow.com/blog' property='og:url'>
+<meta content='Crowd Cow Blog: Exploring the World of Craft Meat' property='og:title'>
+<meta content='Crowd Cow Blog - join the craft meat revolution with Crowd Cow, learn to cook, share in the journey and learn where your food comes from (Crowd Cow&#39;s Blog)' property='og:description'>
+<meta content='https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-uploads.imgix.net%2Fpicture%2Fproduction%2Ficbq3hpyc%2Fblog.jpg?ixlib=rails-2.1.4&w=1200&h=630&fit=crop&crop_type=focalpoint&fm=jpg&auto=compress%2Cformat&cs=srgb&q=40&s=b329b4ad605edd38c8a5c80db154a0f3' property='og:image'>
+<meta content='https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-uploads.imgix.net%2Fpicture%2Fproduction%2Ficbq3hpyc%2Fblog.jpg?ixlib=rails-2.1.4&w=1200&h=630&fit=crop&crop_type=focalpoint&fm=jpg&auto=compress%2Cformat&cs=srgb&q=40&s=b329b4ad605edd38c8a5c80db154a0f3' property='og:image:secure_url'>
+<meta content='1200' property='og:image:width'>
+<meta content='668' property='og:image:height'>
+<meta content='3pCISbU2r09VVWItSQTl0m9zkWimmOIaLwzB7jGqQ9w' name='google-site-verification'>
+<meta content='summary_large_image' name='twitter:card'>
+<meta content='@crowdcowusa' name='twitter:site'>
+<meta content='@crowdcowusa' name='twitter:creator'>
+<meta content='Crowd Cow Blog: Exploring the World of Craft Meat' name='twitter:title'>
+<meta content='Crowd Cow Blog - join the craft meat revolution with Crowd Cow, learn to cook, share in the journey and learn where your food comes from (Crowd Cow&#39;s Blog)' name='twitter:description'>
+<meta content='https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-uploads.imgix.net%2Fpicture%2Fproduction%2Ficbq3hpyc%2Fblog.jpg?ixlib=rails-2.1.4&amp;w=1200&amp;h=600&amp;fit=crop&amp;crop_type=focalpoint&amp;fm=jpg&amp;auto=compress%2Cformat&amp;cs=srgb&amp;q=40&amp;s=31adcb6d2cc9646ec7774e326f858d23'>
+<meta content='459f14f1c15d64a7ce928661a74fcea8' name='p:domain_verify'>
+<meta name="stripe-key" content="pk_live_SGkbRXawBf23b5YqwgxOuvP3" />
+<link rel="shortcut icon" type="image/x-icon" href="https://www.crowdcow.com/assets/favicon-232d77c7509be7be5b481e4ede3033d9e752d89eddf4aca18f02368fd24a2fba.ico" />
+<link rel="stylesheet" media="screen" href="https://www.crowdcow.com/assets/application-e2298da1a3ae72589218f5fea654834ac57bb01a486b57d32229bd04fdad0483.css" />
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="WeqhEVhwyGkq2nF7ybFmO+glkRZBxHU/gSsbxxgbZGDXhpbdsxLUunu6x0uFT0bwknyBBFa/SzKI4EMqnezp9A==" />
+
+
+<script src="https://polyfill.io/v3/polyfill.js" defer="defer"></script>
+<script src="https://www.crowdcow.com/packs/js/runtime~application-948839870295f9bcf08a.js" defer="defer"></script>
+<script src="https://www.crowdcow.com/packs/js/0-13e0695816a8331cd6e3.chunk.js" defer="defer"></script>
+<script src="https://www.crowdcow.com/packs/js/1-54ea1209c19b063da9fb.chunk.js" defer="defer"></script>
+<script src="https://www.crowdcow.com/packs/js/application-b782d795b1e71278d2bc.chunk.js" defer="defer"></script>
+<style>
+  .price-test-variant { display: unset !important }
+  .price-test-control { display: none !important }
+</style>
+<style>
+  .js-hide-member-pricing .price-test-variant { display: none !important }
+  .js-hide-member-pricing .price-test-control { display: unset !important }
+</style>
+</head>
+<body class='has-navbar-fixed-top-desktop' data-action='blog_index' data-controller='blog' ontouchstart=''>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCS7CFP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class='body-container'>
+<a class='is-sr-only' href='#main-content' tabIndex='0'>Skip to main content</a>
+<nav aria-label='dropdown navigation' class='has-background-white has-shadow is-fixed-top-desktop is-spaced navbar' role='navigation'>
+<div class='container'>
+<div class='navbar-brand left-burger' id='burger'>
+<a aria-expanded='false' aria-label='menu' class='navbar-burger' data-target='navMenu' role='button' tabIndex='0'>
+<span aria-hidden='true'></span>
+<span aria-hidden='true'></span>
+<span aria-hidden='true'></span>
+</a>
+<div class='navbar-item mx-1 px-0 px-md-1 is-hidden-desktop'><a aria-label='Search our site' class='js-open-search-bar icon-search-o has-text-grey is-size-5' href='/products/search' tabIndex='0'></a></div>
+<a aria-label='Crowd Cow home page link' class='navbar-item is-logo' href='/' tabIndex='0'>
+<img width="200" class="" alt="Crowd Cow Logo" src="https://www.crowdcow.com/assets/CC_new_logo-906f7744f80eaca9bfd616d55f5c55151f1bb4dba92e6b60ff3c17a9f552216c.png" />
+</a>
+<div class='navbar-item mobile-box-icon px-3 py-2 is-size-5 is-hidden-desktop'>
+<div id='vue-mount-cart-toggle-mobile'></div>
+</div>
+</div>
+<div class='navbar-menu'>
+<div class='navbar-start ml-2'>
+<div class='navbar-item has-dropdown is-hoverable dropdown-toggle is-hidden-desktop' id='navbar-account'>
+<a alt='Your Account' class='navbar-link has-text-weight-bold' href='/account' tabIndex='0'>Your Account</a>
+</div>
+<div class='navbar-item has-dropdown is-hoverable is-hidden-desktop' id='navbar-gifts-mobile'><a alt='Gifts' class='navbar-link has-text-weight-bold' href='/gifts' tabIndex='0'>Gifts</a></div>
+<div class='navbar-item has-dropdown is-hoverable dropdown-toggle' id='navbar-shop'><a alt='Shop' class='navbar-link has-text-weight-bold' href='/shop-nav' tabIndex='0'>Shop</a><div class='navbar-dropdown is-boxed is-radiusless'>
+<div class='columns'>
+<div class='column is-half'>
+<div class='navbar-item has-text-weight-bold heading pt-3 has-dashes is-left' style='justify-content: left'>
+Collections
+</div>
+<div class='navbar-item'>
+<a href='/craft-beef-select' tabIndex='0'>
+Beef
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/wagyu/japanese' tabIndex='0'>
+Japanese Wagyu
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/wagyu/beef' tabIndex='0'>
+Wagyu
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/chicken' tabIndex='0'>
+Chicken
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/pork' tabIndex='0'>
+Pork
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/seafood' tabIndex='0'>
+Sustainable Seafood
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/bison' tabIndex='0'>
+Bison
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/game-meats' tabIndex='0'>
+Game Meat
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/american-lamb' tabIndex='0'>
+American Lamb
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/turkey' tabIndex='0'>
+Turkey
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/ranch/crave-house' tabIndex='0'>
+Plant-Based Protein
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/sides-desserts' tabIndex='0'>
+Sides & Desserts
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/seasoning-and-sauces' tabIndex='0'>
+Seasoning & Sauces
+</a>
+</div>
+</div>
+<div class='column is-half pr-4'>
+<div class='navbar-item has-text-weight-bold heading pt-3 has-dashes is-left' style='justify-content: left'>
+Featured
+</div>
+<div class='navbar-item'>
+<a href='/butchers-picks' tabIndex='0'>
+<span class='px-1 has-text-weight-bold has-background-black has-text-white'>Butcher's Specials</span>
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/gifts' tabIndex='0'>
+<span class='has-text-info'><i class='fas fa-gift pr-1'></i>Send a Gift</span>
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/bbq' tabIndex='0'>
+BBQ & Briskets
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/steaks' tabIndex='0'>
+Steaks
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/collections/weekly-meal-planning' tabIndex='0'>
+Weekly Essentials
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/collections/ground-meat' tabIndex='0'>
+Burgers & Sausages
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/shop-farms' tabIndex='0'>
+Shop By Farm
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/kitchen-tools' tabIndex='0'>
+Kitchen Tools
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/dog-treats' tabIndex='0'>
+Dog Treats
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/new-arrivals' tabIndex='0'>
+New Arrivals
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/coming-soon' tabIndex='0'>
+Coming Soon
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='navbar-item has-dropdown is-hoverable dropdown-toggle' id='navbar-cooking'>
+<a class='navbar-link' href='/cooking-resources' style='background:none' tabIndex='0'>
+Cooking
+</a>
+<div class='navbar-dropdown is-boxed is-radiusless'>
+<div class='columns'>
+<div class='column'>
+<div class='navbar-item'>
+<a href='/cooking-resources' tabIndex='0'>
+Cooking Resources
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/recipes' tabIndex='0'>
+Recipes
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='navbar-item has-dropdown is-hoverable dropdown-toggle' id='navbar-about'>
+<a class='navbar-link' style='background:none' tabIndex='0'>
+About
+</a>
+<div class='navbar-dropdown is-boxed is-radiusless'>
+<div class='columns'>
+<div class='column'>
+<div class='navbar-item'>
+<a href='/how-it-works' tabIndex='0'>
+How It Works
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/faq' tabIndex='0'>
+FAQ
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/who-we-are' tabIndex='0'>
+Our Story
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/testimonials' tabIndex='0'>
+Testimonials
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/eco-friendly-packaging' tabIndex='0'>
+Our Eco-Commitment
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/blog' tabIndex='0'>
+Our Blog
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='navbar-item has-dropdown is-hoverable dropdown-toggle is-hidden-touch' id='navbar-gifts'>
+<a class='navbar-link' href='/gifts' style='background:none' tabIndex='0'>
+Gifts
+</a>
+<div class='navbar-dropdown is-boxed is-radiusless'>
+<div class='columns'>
+<div class='column'>
+<div class='navbar-item'>
+<a href='/gifts' tabIndex='0'>
+Send a Gift Box
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/gifts/gift-cards' tabIndex='0'>
+Gift Cards
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/gifts/corporate' tabIndex='0'>
+Corporate Gifting
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/gifts/how-to-gift' tabIndex='0'>
+How to Make a Gift
+</a>
+</div>
+<div class='navbar-item'>
+<a href='/gifts/corporate#contact' tabIndex='0'>
+Contact Us About a Gift
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='navbar-end is-hidden-touch' id='navbar-zip'>
+<div class='navbar-item'>
+<a class='navbar-link js-show-postal-code-wall' style='padding-right: 0;' tabIndex='0'>
+<div class='span fas fa-map-marker-alt has-text-grey is-size-5'></div>
+&nbsp;
+<span id='vue-mount-user-postal-code'></span>
+</a>
+</div>
+</div>
+<div class='is-flex is-hidden-touch'>
+<div class='navbar-item mx-1 px-0 px-md-1'><a aria-label='Search our site' class='js-open-search-bar icon-search-o has-text-grey is-size-5' href='/products/search'></a></div>
+<div class='navbar-item mx-1 px-0 pl-md-1'>
+<div id='vue-mount-cart-toggle-desktop'></div>
+</div>
+<div class='navbar-item has-dropdown is-hoverable dropdown-toggle'><a class='navbar-link mr-0' href='/signin'><i class='icon-account-o has-text-grey is-size-5'></i>
+<span class='is-sr-only'>
+Signin
+</span></a><div class='navbar-dropdown is-boxed is-radiusless is-right'>
+<div class='navbar-item'>
+<a href='/signin'>
+Sign In
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='search-bar__wrapper'>
+<div class='container'>
+<div class='search-bar has-background-white px-2 px-md-0'>
+<form autocomplete="off" role="search" class="is-relative" action="/products/search" accept-charset="UTF-8" method="get">
+<div class='field has-addons'>
+<div class='control'>
+<a class='button js-submit-search is-orange icon-search-o px-3' tabIndex='0'></a>
+</div>
+<div class='control is-expanded'>
+<input type="text" name="q" id="search-bar__field" class="input is-shadowless" alt="Search" aria-label="Search" />
+<div class='span fas fa-times js-clear-search-bar has-text-grey is-size-5'></div>
+</div>
+</div>
+</form>
+<nav class='panel js-search-bar__results'></nav>
+</div>
+</div>
+</div>
+<div id='vue-mount-pdp-summary-bar' style='width: 100%; position: absolute; height: auto; top: 100%; left: 0px;'></div>
+</nav>
+<div id='main-content' tabindex='-1'>
+<div class='site-banner'>
+<div class='notification is-radiusless has-background-black has-text-centered has-text-white mb-0 py-2 px-1' style='z-index:10;'>
+<p><a href="/free-bacon-forever">GET FREE BACON FOREVER</a></p>
+</div>
+</div>
+<div id='vue-mount-cart'></div>
+<div id='vue-mount-router-view'></div>
+<div id='vue-mount-app'></div>
+<script src="https://www.crowdcow.com/packs/js/runtime~client/main-6f0cb6f265b367d57702.js"></script>
+<script src="https://www.crowdcow.com/packs/js/38-904780a74013820a3ef7.chunk.js"></script>
+<script src="https://www.crowdcow.com/packs/js/client/main-30e68c5dae10a0d8436f.chunk.js"></script>
+<link rel="stylesheet" media="screen" href="https://www.crowdcow.com/packs/css/client/main-2a26c228.chunk.css" preload="true" />
+<div class='section blog mt-2 mb-3'>
+<div class='container'>
+<div class='columns is-centered'>
+<div class='column is-three-quarters-desktop is-four-fifths-tablet'>
+<div class='blog'>
+<nav class='breadcrumb has-bullet-separator mb-2'>
+<ul>
+<li>
+<a href="/">Crowd Cow
+</a></li>
+<li>
+<a href="/blog">Blog
+</a></li>
+<li>
+<a href="/videos">Videos
+</a></li>
+</ul>
+</nav>
+<h2 class='title titleofpost is-2 my-2'>
+Exploring the World of Craft Meat
+</h2>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/panorama-promise"><img class="img-minor lazyload" alt="Panorama Organic Grass-Fed Meat Partners with the Audobon Society" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fcrowdcow-blog.imgix.net%252F2021%252F04%252FPanorama-BeefIMG_0553-024--3-.jpg%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3Db7cce79f40d20b619f664bd13568f3fd?ixlib=rails-2.1.4&class=img-minor&alt=Panorama%20Organic%20Grass-Fed%20Meat%20Partners%20with%20the%20Audobon%20Society&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=f3b2f5926d990ed2c7bc4e894acd84c2" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/panorama-promise">Panorama Organic Grass-Fed Meat Partners with the Audobon Society</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+April 26th
+by
+Kaleigh Jurgensmeyer
+&bull;
+Read
+4,329 times
+&bull;
+1 min read
+</p>
+<p class='content fb-quotable'>
+Since Crowd Cow’s beginning, we’ve always had a deep-rooted connection with the environment and eco-friendly practices. After all, what’s better for the earth is better for the animals — an in turn, better for you!Working with farms that do things the right way helps protect the planet in more ways than one — and your support means these farms can continue doing what they do best through more sustainable, regenerative agriculture...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/panorama-promise"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/grass-finished">Grass Finished
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/grassfed-beef">Grassfed Beef
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/regenerative-farming">Regenerative Farming
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/eco-friendly">Eco Friendly
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/learn-to-cook-lobster-like-the-pros-recipes"><img class="img-minor lazyload" alt="Learn to Cook Lobster Like the Pros: 5 Favorite Lobster Recipes from Ready Seafood" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fcrowdcow-blog.imgix.net%252F2020%252F12%252Flobster-sizes.jpg%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3D300100ee298f6494561441f34cd5c457?ixlib=rails-2.1.4&class=img-minor&alt=Learn%20to%20Cook%20Lobster%20Like%20the%20Pros%3A%205%20Favorite%20Lobster%20Recipes%20from%20Ready%20Seafood&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=a3b76b9655a0257c0f95384976ddc5c1" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/learn-to-cook-lobster-like-the-pros-recipes">Learn to Cook Lobster Like the Pros: 5 Favorite Lobster Recipes from Ready Seafood</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+December 17th, 2020
+by
+Kaleigh Jurgensmeyer
+&bull;
+Read
+28,204 times
+&bull;
+3 min read
+</p>
+<p class='content fb-quotable'>
+We recently got in an exclusive batch of 7-8 oz lobster tails — nearly twice the size of standard tails — just in time for the holidays! These are extremely rare and hard to find, making up just 1% of lobster production. XL Tails (left) come in a pack of two — that makes 14-16 oz lobster meat!We feel especially lucky to be sourcing from Ready Seafood directly so that our customers can try these extra meaty tails for themselves, even if they...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/learn-to-cook-lobster-like-the-pros-recipes"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/recipes">Recipes
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/seafood">Seafood
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/wild-caught">Wild Caught
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/lobster">Lobster
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/corporate-gifting"><img class="img-minor lazyload" alt="Level Up Your Corporate Gifting: How to Stand Out in a Sea of Fruit Gift Baskets this Holiday Season" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Flh3.googleusercontent.com%252F_B8pebAZJh3SzbNN-wsMYi7f4pM7JaNYgAcJvoSefRHtNZViOzcF_onq9Q7zdxuUyALtAD06T6aX1et7QtBeEjbtDRFmmef0yv8xyews_6RzA-KWcJO4xkgBa1Y8tvSpnRahOkE9%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3Dd6588b8375f5da406a9f5f997d9eeca3?ixlib=rails-2.1.4&class=img-minor&alt=Level%20Up%20Your%20Corporate%20Gifting%3A%20How%20to%20Stand%20Out%20in%20a%20Sea%20of%20Fruit%20Gift%20Baskets%20this%20Holiday%20Season&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=2901ae787216a8cc76131f9f2bb52131" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/corporate-gifting">Level Up Your Corporate Gifting: How to Stand Out in a Sea of Fruit Gift Baskets this Holiday Season</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+November 25th, 2020
+by
+Kaleigh Jurgensmeyer
+&bull;
+Read
+6,783 times
+&bull;
+2 min read
+</p>
+<p class='content fb-quotable'>
+We get it, it is the easy button to send chocolate, fruit and wine baskets to your team and clients.  But quite frankly, they probably receive the same gift every year...from multiple people...and it likely goes unappreciated. This year especially, connecting with your team and customers in a personal, unique (and delicious) way is more important than ever.  One way to show your appreciation is through good food. We’re here to help you go from...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/corporate-gifting"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/holiday">Holiday
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/gift-guide">Gift Guide
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/farmer-focus-free-range-organic-chicken-unpacking-the-label"><img class="img-minor lazyload" alt="SVO Farmer Focus Free Range &amp; Organic Chicken — Unpacking the Label" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fcrowdcow-blog.imgix.net%252F2020%252F08%252FFF_VSP_Example.jpg%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3D3b413f7ffcac98cb07bb90aef3ced7fb?ixlib=rails-2.1.4&class=img-minor&alt=SVO%20Farmer%20Focus%20Free%20Range%20%26%20Organic%20Chicken%20%E2%80%94%20Unpacking%20the%20Label&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=d21d3c93e4d0a0ea898c76b6de9c1c4d" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/farmer-focus-free-range-organic-chicken-unpacking-the-label">SVO Farmer Focus Free Range &amp; Organic Chicken — Unpacking the Label</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+August 12th, 2020
+by
+Kaleigh Jurgensmeyer
+&bull;
+Read
+21,083 times
+&bull;
+3 min read
+</p>
+<p class='content fb-quotable'>
+Now, more than ever, people want answers — where does your food come from? And what kind of care is put into your food before it lands on the shelf?At Farmer Focus, they believe that customers should have these answers at their fingertips. That is why they provide free range and organic chicken that is 100% traceable to the farm where it was raised. With the use of their 4-letter Farm I.D. and the help of third-party auditors who verify their...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/farmer-focus-free-range-organic-chicken-unpacking-the-label"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/chicken">Chicken
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/farm-raised">Farm Raised
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/certified-organic">Certified Organic
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/organic">Organic
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/transparency">Transparency
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/humane">Humane
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/farmer-focus">Farmer Focus
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/fair-trade-certified-wild-blue-shrimp"><img class="img-minor lazyload" alt="Fair Trade Certified Wild Blue Shrimp: What does that label really mean?" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fcrowdcow-blog.imgix.net%252F2020%252F08%252Fproduct-mexshrimp-065-1.jpg%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3D3cad0024451fa552d0d5537b49223a42?ixlib=rails-2.1.4&class=img-minor&alt=Fair%20Trade%20Certified%20Wild%20Blue%20Shrimp%3A%20What%20does%20that%20label%20really%20mean%3F&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=3caa620abfa4bca5f0203e0f5cca2566" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/fair-trade-certified-wild-blue-shrimp">Fair Trade Certified Wild Blue Shrimp: What does that label really mean?</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+August 3rd, 2020
+by
+Kaleigh Jurgensmeyer
+&bull;
+Read
+7,202 times
+&bull;
+5 min read
+</p>
+<p class='content fb-quotable'>
+From coffee and chocolate to beauty products and clothing — you’ve probably heard of Fair Trade Certified™ or may have seen their signature green and black seal on some of your favorite items — maybe even on the packaging of our Wild Caught Mexican Blue Shrimp from Del Pacifico, the first and only Fair Trade Certified wild shrimp company!But what does it really mean when something is Fair Trade Certified? How does it actually help the...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/fair-trade-certified-wild-blue-shrimp"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/seafood">Seafood
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/sustainability">Sustainability
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/fair-trade-certified">Fair Trade Certified
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/fair-trade">Fair Trade
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/shrimp">Shrimp
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/del-pacifico">Del Pacifico
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/whats-written-on-a-japanese-wagyu-cattle-nose-print-certificate"><img class="img-minor lazyload" alt="What&#39;s written on a Japanese Wagyu cattle nose print certificate?" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fcrowdcow-uploads.imgix.net%252Fpicture%252Fproduction%252Fi5ryqoxntge%252Fnoseprintcertannotated.jpg%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3Da73b7844fc34dcd77d60aa4d0f2a8904?ixlib=rails-2.1.4&class=img-minor&alt=What%27s%20written%20on%20a%20Japanese%20Wagyu%20cattle%20nose%20print%20certificate%3F&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=11cadd04dce874b46caf352a39a9d509" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/whats-written-on-a-japanese-wagyu-cattle-nose-print-certificate">What&#39;s written on a Japanese Wagyu cattle nose print certificate?</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+July 14th, 2020
+by
+Joe Heitzeberg
+&bull;
+Read
+12,896 times
+&bull;
+1 min read
+</p>
+<p class='content fb-quotable'>
+Besides the incredible marbling and exquisite flavor profile, another thing to admire about Japanese Wagyu is the system of 100% traceability for every animal. The nose print certificates, which track every animal&#39;s lineage, place of birth and other details, are the carefully-managed centerpiece of this system. Starting in July of this year, we are offering Kobe Beef, and for the lucky few who are able to score some of this rare Wagyu, we are...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/whats-written-on-a-japanese-wagyu-cattle-nose-print-certificate"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/a5-wagyu">A5 Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/kobe-beef">Kobe Beef
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/japanese-wagyu">Japanese Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/kuroge-washu">Kuroge Washu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/japanese-beef">Japanese Beef
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/a5-kobe-beef">A5 Kobe Beef
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/traceability">Traceability
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/kobe-beef-japans-iconic-wagyu"><img class="img-minor lazyload" alt="Kobe Beef: Japan&#39;s Iconic Wagyu" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fcrowdcow-uploads.imgix.net%252Fpicture%252Fproduction%252Fizob6ydfdek%252Fkobe_beef_blog_crop.jpg%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3Dec818628676e9cfb5bb4b69ed849a064?ixlib=rails-2.1.4&class=img-minor&alt=Kobe%20Beef%3A%20Japan%27s%20Iconic%20Wagyu&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=2cff17dd9239f892d247f86bca23a1e7" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/kobe-beef-japans-iconic-wagyu">Kobe Beef: Japan&#39;s Iconic Wagyu</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+July 2nd, 2020
+by
+Joe Heitzeberg
+&bull;
+Read
+11,608 times
+&bull;
+1 min read
+</p>
+<p class='content fb-quotable'>
+Kobe Beef is iconic. You could visit the Medina of Fez, a pool hall in Kiev or a village in the highlands of Papua New Guinea and ask almost anyone — and they would tell you they’ve heard of Kobe Beef. There are few things in the culinary world as highly regarded or as rare. It’s scarcity has contributed to its overall aura. Only a relatively small group of farmers and processors in Hyogo Prefecture are qualified to raise it, and each calf...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/kobe-beef-japans-iconic-wagyu"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/a5-wagyu">A5 Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/japanese-a5-wagyu">Japanese A5 Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/japanese-wagyu">Japanese Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/japanese-beef">Japanese Beef
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/a5-kobe-beef">A5 Kobe Beef
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/wagyu-olympics">Wagyu Olympics
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/a5-kobe">A5 Kobe
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/how-to-make-wagyu-katsu-sando"><img class="img-minor lazyload" alt="How to Make a Wagyu Katsu Sando at Home" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fcrowdcow-blog.imgix.net%252F2020%252F05%252FWagyu-Sando.JPG%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3Dd9df8b3875cbbe4d4bf5befdc36f23db?ixlib=rails-2.1.4&class=img-minor&alt=How%20to%20Make%20a%20Wagyu%20Katsu%20Sando%20at%20Home&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=a575fb11f641438f595369e1c7c8109e" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/how-to-make-wagyu-katsu-sando">How to Make a Wagyu Katsu Sando at Home</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+May 21st, 2020
+by
+Kaleigh Jurgensmeyer
+&bull;
+Read
+43,459 times
+&bull;
+2 min read
+</p>
+<p class='content fb-quotable'>
+The internet’s been abuzz with a trendy steak sandwich known as the Wagyu Katsu Sando — a crunchy, panko-breaded and fried cutlet of A5 nestled between two buttery slices of toasted white bread, and topped with a tangy sauce. Popularized in Japan, this dish has made its way across Instagram and into American cuisine — rightfully celebrated for its tender, ultra-marbled, beefy middle and crispy outer layer. Only a few restaurants in the US even...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/how-to-make-wagyu-katsu-sando"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/a5-wagyu">A5 Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/wagyu">Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/recipes">Recipes
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/cooking">Cooking
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/olive-wagyu">Olive Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/japanese-wagyu">Japanese Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/wagyu-recipes">Wagyu Recipes
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/carbon-neutral"><img class="img-minor lazyload" alt="100% Carbon Neutral" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Flh6.googleusercontent.com%252FkkqP-eacNZcqDsmowdW23F6prvPVKf_Z1mSx5KLTwMx7ttr0de81UWD2HlkkpQy8D2sc3ukz5iQTSmi4WI4ncb6jWPh8pTFLs1cqg5-U9LBP0MgNemNmIbJqMC-UhFW21slsTmTb%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3D0e0b8c8dc2493d6ba222cd040662a1a0?ixlib=rails-2.1.4&class=img-minor&alt=100%25%20Carbon%20Neutral&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=699610623e7f1521a004016215dc88f5" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/carbon-neutral">100% Carbon Neutral</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+April 14th, 2020
+by
+Ethan Lowry
+&bull;
+Read
+15,569 times
+&bull;
+2 min read
+</p>
+<p class='content fb-quotable'>
+We have the best customers. Sure, you have great taste when it comes to meat, but you also care about the world and each other. When it comes to the environment, we’re all in this together and we have a responsibility to take care of our planet for future generations. One part we can play is to help stop climate change.Starting today, I’m excited to say we are fully offsetting the carbon impact of every order.  Your orders on Crowd Cow are now...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/carbon-neutral"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/regenerative-farming">Regenerative Farming
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/environment">Environment
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/eco-friendly">Eco Friendly
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/carbon-neutral">Carbon Neutral
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='columns'>
+<div class='column is-one-quarter'>
+<div class='image'>
+<a href="/blog/how-to-make-wagyu-bacon"><img class="img-minor lazyload" alt="How to Make Wagyu Brisket Bacon" auto="compress,format" cs="srgb" q="40" w="235px" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Flh6.googleusercontent.com%252FFHzzcT6hg0q5v63QrouaVc5_tA7y449slAA2mMO0ZIIXp3f4iz8cKUXUgmA4FDKToK5C8qz1spJNBODhPkMrnsHolBiXNy-VhTJM4-L0XaFC3q0s9jupLm8BOk8GfrQRv28e1Wja%3Fixlib%3Drails-2.1.4%26w%3D470%26h%3D470%26fit%3Dcrop%26crop_type%3Dfocalpoint%26fm%3Djpg%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26s%3D0df43e5aeaa6ef93b21431433f5af146?ixlib=rails-2.1.4&class=img-minor&alt=How%20to%20Make%20Wagyu%20Brisket%20Bacon&auto=compress%2Cformat&cs=srgb&q=40&w=235px&fit=min&s=6c23343f9f59afb967071b88d5cdcadf" src="https://www.crowdcow.com/clear.png" />
+</a></div>
+</div>
+<div class='column is-three-quarters'>
+<h2 class='title is-size-5'><a href="/blog/how-to-make-wagyu-bacon">How to Make Wagyu Brisket Bacon</a></h2>
+<p class='subtitle is-size-6 has-text-grey'>
+April 8th, 2020
+by
+Kaleigh Jurgensmeyer
+&bull;
+Read
+12,849 times
+&bull;
+2 min read
+</p>
+<p class='content fb-quotable'>
+Bacon is universally loved. It’s the perfect combination of crispiness and chew, a literal wave of savory, salty goodness that makes it completely irresistible.While it’s usually associated with pork, BBQ aficionados are raving about the beef version — cured and smoked beef belly (navel). Another variety of beef bacon uses the brisket (what the navel connects to). Since brisket is leaner than the belly, it’s essential to have lots of marbling...
+</p>
+<p>
+<a class="readmore button is-primary" href="/blog/how-to-make-wagyu-bacon"><strong class='small'>
+Read &raquo;
+</strong>
+</a></p>
+<p class='tags'>
+<div class='tag'>
+<a href="/blog/tags/a5-wagyu">A5 Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/wagyu">Wagyu
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/recipes">Recipes
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/cooking">Cooking
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/kagoshima-a5">Kagoshima A5
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/wagyu-recipes">Wagyu Recipes
+</a></div>
+<div class='tag'>
+<a href="/blog/tags/home-cooking">Home Cooking
+</a></div>
+</p>
+<div class='fb-quote'></div>
+</div>
+</div>
+<hr>
+<div class='spacer'></div>
+<ul class="pagination pagination"><li class="prev disabled"><span>&#8592; Previous</span></li> <li class="active"><span>1</span></li> <li><a rel="next" href="/blog?page=2">2</a></li> <li><a href="/blog?page=3">3</a></li> <li><a href="/blog?page=4">4</a></li> <li><a href="/blog?page=5">5</a></li> <li><a href="/blog?page=6">6</a></li> <li><a href="/blog?page=7">7</a></li> <li><a href="/blog?page=8">8</a></li> <li><a href="/blog?page=9">9</a></li> <li class="disabled"><span>&hellip;</span></li> <li><a href="/blog?page=17">17</a></li> <li><a href="/blog?page=18">18</a></li> <li class="next"><a rel="next" href="/blog?page=2">Next &#8594;</a></li></ul>
+<div class='spacer'></div>
+</div>
+</div>
+</div>
+<div class='columns'>
+<div class='column is-offset-1-desktop is-1-desktop0'>
+<div class='spacer'></div>
+<div class='tag is-white is-size-6'>
+Tags:
+</div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/craft-beef">Craft Beef
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/a5-wagyu">A5 Wagyu
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/beef">Beef
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/wagyu">Wagyu
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/recipes">Recipes
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/crowd-cow">Crowd Cow
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/cooking">Cooking
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/olive-wagyu">Olive Wagyu
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/craft-meat">Craft Meat
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/steak">Steak
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/japanese-a5-wagyu">Japanese A5 Wagyu
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/kobe-beef">Kobe Beef
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/japanese-wagyu">Japanese Wagyu
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/japan">Japan
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/kuroge-washu">Kuroge Washu
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/press-release">Press Release
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/japanese-beef">Japanese Beef
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/chicken">Chicken
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/pasture">Pasture
+</a></div>
+<div class='tag is-size-6'>
+<a href="/blog/tags/grass-finished">Grass Finished
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section class='section' style='background-color: #e2e1bd !important;'>
+<div class='container'>
+<h3 class='is-3 title has-text-centered is-uppercase has-dashes'>
+Latest from Crowd&nbsp;Cow
+</h3>
+<div class='columns is-variable is-6'>
+<div class='column'>
+<a href="/videos/all/king-kampachi"><div class='columns is-gapless'>
+<div class='column'>
+<div class='p-1 has-background-white mr-3 mb-3'>
+<img w="" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FvcvNErgF2vw%252Fhqdefault.jpg%3Fixlib%3Drails-2.1.4%26mark%3Dhttps%253A%252F%252Fcrowdcow.imgix.net%252Fsite_keep%252Fapp%252Fplaybuttonoverlay.png%26markalign%3Dcenter%252Cmiddle%26markscale%3D22%26markalpha%3D75%26rect%3D0%252C50%252C480%252C260%26txtshad%3D8%26txtfont%3Dbold%26txtclr%3Dfff%26txtsize%3D23%26txtalign%3Dright%26txt%3D01%253A12%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26fit%3Dmin%26s%3D8cb561805fe0e4e1128dde7179e59b34?ixlib=rails-2.1.4&w=&data-src=https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FvcvNErgF2vw%252Fhqdefault.jpg%3Fixlib%3Drails-2.1.4%26mark%3Dhttps%253A%252F%252Fcrowdcow.imgix.net%252Fsite_keep%252Fapp%252Fplaybuttonoverlay.png%26markalign%3Dcenter%252Cmiddle%26markscale%3D22%26markalpha%3D75%26rect%3D0%252C50%252C480%252C260%26txtshad%3D8%26txtfont%3Dbold%26txtclr%3Dfff%26txtsize%3D23%26txtalign%3Dright%26txt%3D01%253A12%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26fit%3Dmin%26s%3D8cb561805fe0e4e1128dde7179e59b34&data-hover=https%3A%2F%2Fcrowdcow-images.imgix.net%2Fhttps%253A%252F%252Fi.ytimg.com%252Fvi%252FvcvNErgF2vw%252Fhqdefault.jpg%3Fixlib%3Drails-2.1.4%26mark%3Dhttps%253A%252F%252Fcrowdcow.imgix.net%252Fsite_keep%252Fapp%252Fplaybuttonoverlay.png%26markalign%3Dcenter%252Cmiddle%26markscale%3D22%26markalpha%3D100%26rect%3D0%252C50%252C480%252C260%26auto%3Dcompress%252Cformat%26cs%3Dsrgb%26q%3D40%26fit%3Dmin%26s%3D21cb7f587eb0113ec287793b4e696700&alt=King%20Kampachi&title=King%20Kampachi&class=play-video-link%20is-block&youtube_token=vcvNErgF2vw&video_uri=all%2Fking-kampachi&auto=compress%2Cformat&cs=srgb&q=40&fit=min&s=9e14e3bae126cb879796c3c799999806" data-hover="https://crowdcow-images.imgix.net/https%3A%2F%2Fi.ytimg.com%2Fvi%2FvcvNErgF2vw%2Fhqdefault.jpg?ixlib=rails-2.1.4&mark=https%3A%2F%2Fcrowdcow.imgix.net%2Fsite_keep%2Fapp%2Fplaybuttonoverlay.png&markalign=center%2Cmiddle&markscale=22&markalpha=100&rect=0%2C50%2C480%2C260&auto=compress%2Cformat&cs=srgb&q=40&fit=min&s=21cb7f587eb0113ec287793b4e696700" alt="King Kampachi" title="King Kampachi" class="play-video-link is-block lazyload" youtube_token="vcvNErgF2vw" video_uri="all/king-kampachi" auto="compress,format" cs="srgb" q="40" fit="min" src="https://www.crowdcow.com/clear.png" />
+</div>
+</div>
+<div class='column has-text-dark has-text-centered-mobile'>
+<div class='has-text-weight-bold'>
+Trending Now
+</div>
+King Kampachi
+</div>
+</div>
+</a></div>
+<div class='column'>
+<a href="/blog/panorama-promise"><div class='columns is-gapless'>
+<div class='column'>
+<div class='p-1 has-background-white mr-3 mb-3'>
+<img w="600" h="325" fit="crop" crop="focalpoint" style="width: 100%; display: block;" alt="Panorama Organic Grass-Fed Meat Partners with the Audobon Society" auto="compress,format" cs="srgb" q="40" class=" lazyload" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-blog.imgix.net%2F2021%2F04%2FPanorama-BeefIMG_0553-024--3-.jpg?ixlib=rails-2.1.4&w=600&h=325&fit=crop&crop=focalpoint&style=width%3A%20100%25%3B%20display%3A%20block%3B&alt=Panorama%20Organic%20Grass-Fed%20Meat%20Partners%20with%20the%20Audobon%20Society&auto=compress%2Cformat&cs=srgb&q=40&s=3d51b97c233e5aa2e1c826f58940fdae" src="https://www.crowdcow.com/clear.png" />
+</div>
+</div>
+<div class='column has-text-dark has-text-centered-mobile'>
+<div class='has-text-weight-bold'>
+New on the Blog
+</div>
+Panorama Organic Grass-Fed Meat Partners with the Audobon Society
+</div>
+</div>
+</a></div>
+</div>
+</div>
+</section>
+<div class='is-zip-bar-mobile py-3 has-text-centered is-underlined-line is-nowrap'>
+Showing farms delivering to
+<div class='span fas fa-map-marker-alt has-text-grey fa-1p3x'></div>
+<a class="js-show-postal-code-wall" href="#">9000</a>
+</div>
+
+
+<footer class='footer pb-0 has-background-light'>
+<div class='container'>
+<div class='level is-multiline-mobile is-2'>
+<div class='level-item has-text-centered pb-4'>
+<figure class='image' style='max-width:60%;height:auto;'>
+<a href="/press"><img class="px-3 w-100 invert-white-to-grey lazyload" w="128" alt="Forbes" auto="compress,format" cs="srgb" q="40" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fwww.crowdcow.com%2Fsite_keep%2Fpress-logos%2Fforbes.png?ixlib=rails-2.1.4&class=px-3%20w-100%20invert-white-to-grey&w=128&alt=Forbes&auto=compress%2Cformat&cs=srgb&q=40&fit=min&s=1560b09aed8ce765d62bebb57f2a47ec" src="https://www.crowdcow.com/clear.png" />
+</a></figure>
+</div>
+<div class='level-item has-text-centered pb-4'>
+<figure class='image' style='max-width:60%;height:auto;'>
+<a href="/press"><img class="px-3 w-100 invert-white-to-grey lazyload" w="128" alt="New York Times" auto="compress,format" cs="srgb" q="40" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fwww.crowdcow.com%2Fsite_keep%2Fpress-logos%2Fnyt.png?ixlib=rails-2.1.4&class=px-3%20w-100%20invert-white-to-grey&w=128&alt=New%20York%20Times&auto=compress%2Cformat&cs=srgb&q=40&fit=min&s=12c9eb206698ec82864f033c4d6a8c36" src="https://www.crowdcow.com/clear.png" />
+</a></figure>
+</div>
+<div class='level-item has-text-centered pb-4'>
+<figure class='image' style='max-width:60%;height:auto;'>
+<a href="/press"><img class="px-3 w-100 invert-white-to-grey lazyload" w="128" alt="Food &amp; Wine" auto="compress,format" cs="srgb" q="40" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fwww.crowdcow.com%2Fsite_keep%2Fpress-logos%2Ffw.png?ixlib=rails-2.1.4&class=px-3%20w-100%20invert-white-to-grey&w=128&alt=Food%20%26%20Wine&auto=compress%2Cformat&cs=srgb&q=40&fit=min&s=24d13703ea0c3d4969b030e90531e4af" src="https://www.crowdcow.com/clear.png" />
+</a></figure>
+</div>
+<div class='level-item has-text-centered pb-4'>
+<figure class='image' style='max-width:60%;height:auto;'>
+<a href="/press"><img class="px-3 w-100 invert-white-to-grey lazyload" w="128" alt="Today Show" auto="compress,format" cs="srgb" q="40" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow-uploads.imgix.net%2Fpicture%2Fproduction%2Fi38361844%2Ftoday_show.png?ixlib=rails-2.1.4&class=px-3%20w-100%20invert-white-to-grey&w=128&alt=Today%20Show&auto=compress%2Cformat&cs=srgb&q=40&fit=min&s=96960a591f747e93675576eb0597ffbf" src="https://www.crowdcow.com/clear.png" />
+</a></figure>
+</div>
+<div class='level-item has-text-centered pb-4 is-hidden-mobile'>
+<figure class='image' style='max-width:60%;height:auto'>
+<a href="/press"><img class="px-3 w-100 invert-white-to-grey lazyload" w="128" alt="Fortune" auto="compress,format" cs="srgb" q="40" fit="min" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fwww.crowdcow.com%2Fsite_keep%2Fpress-logos%2Ffortune.png?ixlib=rails-2.1.4&class=px-3%20w-100%20invert-white-to-grey&w=128&alt=Fortune&auto=compress%2Cformat&cs=srgb&q=40&fit=min&s=88d7ea66cceb24a8954c51a8f164481c" src="https://www.crowdcow.com/clear.png" />
+</a></figure>
+</div>
+</div>
+</div>
+<div class='is-divider'></div>
+<div class='container'>
+<div class='level is-multiline' style='list-style-type: none; font-size: 14px; flex-grow: 1;'>
+<div class='column level-item py-0 px-4 has-text-centered'>
+<img style="max-width: 200px" alt="Crowd Cow" auto="compress,format" cs="srgb" q="40" fit="min" class=" lazyload" data-src="https://crowdcow-images.imgix.net/https%3A%2F%2Fcrowdcow.imgix.net%2Fsite_keep%2Fapp%2FCC_logo_vert_footer.png?ixlib=rails-2.1.4&style=max-width%3A%20200px&alt=Crowd%20Cow&auto=compress%2Cformat&cs=srgb&q=40&fit=min&s=8646199e8dacba077b93ca9acfdfbd56" src="https://www.crowdcow.com/clear.png" />
+</div>
+<div class='level-item' style='align-items: initial;'>
+<div class='column level-item' style='max-width:125px;padding: 0px;'>
+<ul class='small my-2' style='font-weight: bold;'>
+Shop
+<li class='my-1 has-text-weight-normal'>
+<a href="/craft-beef-select">Beef</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/collections/heritage-pork">Pork</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/collections/pastured-chicken">Chicken</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/wagyu">Wagyu</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/collections/seafood">Seafood</a>
+</li>
+</ul>
+</div>
+<div class='is-divider-vertical'></div>
+<div class='column level-item' style='max-width:140px;padding: 0px;'>
+<ul class='small my-2' style='font-weight: bold'>
+Discover
+<li class='my-1 has-text-weight-normal'>
+<a href="/blog">Blog</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/cooking-resources">Cooking</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/recipes">Recipes</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/shop-farms">Farms</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/faq">FAQ</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a class="is-nowrap" href="/refer">Give $25, Get $25</a>
+</li>
+</ul>
+</div>
+<div class='is-divider-vertical'></div>
+<div class='column level-item' style='max-width:125px;padding: 0px;'>
+<ul class='small my-2' style='font-weight: bold'>
+Company
+<li class='my-1 has-text-weight-normal'>
+<a href="/affiliate">Affiliates</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/press">Press</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/jobs">Jobs</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/farms">For Farmers</a>
+</li>
+<li class='my-1 has-text-weight-normal'>
+<a href="/covid-19-faq">COVID-19</a>
+</li>
+</ul>
+</div>
+</div>
+<div class='column level-item' style='text-align: center;'>
+<ul>
+<li class='is-inline-block is-size-3 mr-1'>
+<span class='icon'>
+<a target="_blank" class="" aria-label="twitter" href="https://twitter.com/crowdcowusa"><i class='fab fa-twitter'></i><span class='is-sr-only'>
+Twitter
+</span>
+</a></span>
+</li>
+<li class='is-inline-block is-size-3 mr-1'>
+<span class='icon ml-3'>
+<a target="_blank" class="" aria-label="facebook" href="https://www.facebook.com/crowdcowusa"><i class='fab fa-facebook-square'></i><span class='is-sr-only'>
+Facebook
+</span>
+</a></span>
+</li>
+<li class='is-inline-block is-size-3 mr-1'>
+<span class='icon ml-3'>
+<a target="_blank" class="" aria-label="instagram" href="https://www.instagram.com/crowdcow/"><i class='fab fa-instagram'></i><span class='is-sr-only'>
+Instagram
+</span>
+</a></span>
+</li>
+<li class='is-inline-block is-size-3 mr-1'>
+<span class='icon ml-3'>
+<a target="_blank" class="" aria-label="youtube" href="https://www.youtube.com/crowdcow"><i class='fab fa-youtube'></i><span class='is-sr-only'>
+YouTube
+</span>
+</a></span>
+</li>
+<li class='is-inline-block is-size-3 mr-1'>
+<span class='icon ml-3'>
+<a target="_blank" class="" aria-label="pinterest" href="https://www.pinterest.com/crowdcow/"><i class='fab fa-pinterest'></i><span class='is-sr-only'>
+Pinterest
+</span>
+</a></span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class='container my-2'>
+<div class='columns'>
+<div class='column has-text-centered is-underlined-line' style='font-size: 14px; padding-top: 24px;'>
+For support, visit <a href='https://www.crowdcow.com/help'>Help Center</a>
+</div>
+</div>
+<div class='columns'>
+<div class='column has-text-centered' style='font-size: 12px;'>
+<ul>
+<li class='small mx-2 is-inline-block'>
+© 2021 Crowd Cow
+</li>
+<li class='small mx-2 is-inline-block'>
+<a href="/privacy">Privacy Policy</a>
+</li>
+<li class='small mx-2 is-inline-block'>
+<a href="/tos">Terms of Use</a>
+</li>
+<li class='small mx-2 is-inline-block'>
+<a href="/personal-data">Do Not Sell My Personal Data</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"651eb0f3ef0ed1ef","token":"905bff1a02a24bc8a1846c6826fda506","version":"2021.5.1","si":10}'></script>
+</body>
+<div class='modal-container'>
+<div class='js-bs4-postal-code-wall modal'>
+<div class='modal-background close-modal'></div>
+<div class='modal-content has-background-white'>
+<button aria-label='close' class='close-modal delete is-pulled-right mt-4 mr-4' type='button'>
+<span aria-hidden='true' class='m-4'>
+&times;
+</span>
+</button>
+<div class='px-5 pt-3 pb-5'>
+<div class='columns has-text-centered is-multiline'>
+<div class='column is-12'>
+<img width="200" class="block-center" alt="Crowd Cow Logo" src="https://www.crowdcow.com/assets/CC_new_logo-906f7744f80eaca9bfd616d55f5c55151f1bb4dba92e6b60ff3c17a9f552216c.png" />
+</div>
+<div class='column is-12'>
+<h4 class='title is-size-4'>Enter Your ZIP Code</h4>
+<h5 class='subtitle is-size-4'>We&#39;ll find the closest farms to you.</h5>
+</div>
+</div>
+<div class='columns is-centered is-multiline'>
+<div class='column is-12'>
+<form>
+<input class='input' name='geo_override' type='hidden' value='true'>
+<input class='input' name='event_token' type='hidden'>
+<div class='alert p-3 is-invisible alert-danger'></div>
+<div class='field is-grouped is-grouped-centered is-grouped-multiline'>
+<div class='control is-centered'>
+<input aria-label='Zip Code' class='wall-postal-code-input-field input is-medium' name='postal_code' placeholder='ZIP Code' type='text'>
+</div>
+<div class='control is-centered'>
+<button class='js-wall-postal-code-button button is-medium is-primary ladda-button' data-size='s' data-style='expand-right' type='submit'>
+Find Farms
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='modal js-supporter-modal'>
+<div class='modal-background close-modal'></div>
+<div class='modal-content has-background-white p-4' style='max-height: 100vh;'>
+<button aria-label='close' class='delete is-pulled-right close-modal' type='button'>
+<span aria-hidden='true'>
+&times;
+</span>
+</button>
+<h4 class='is-size-5 has-text-weight-bold'>
+Support
+<span class='js-farm-name'></span>
+</h4>
+<div class='pt-2'>
+It's better for the farmers, the animals, the environment -- and you get the best tasting craft meat anywhere.
+</div>
+<div class='pt-2'>
+How can you help?
+</div>
+<ol class='p-3'>
+<li>
+Follow the farm to find out when they are featured.
+</li>
+<li>
+Purchase their meats and share their page.
+</li>
+<li>
+Once you've tried their product, rate the flavor of what you've eaten.
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+
+<script type="text/javascript">
+  /* <![CDATA[ */
+  var google_conversion_id = 871856497;
+  var google_conversion_label = "NKY0CMqP8XMQ8fLdnwM";
+  var google_custom_params = window.google_tag_params;
+  var google_remarketing_only = true;
+  /* ]]> */
+  </script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+  </script>
+<noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/871856497/?value=1.00&amp;label=NKY0CMqP8XMQ8fLdnwM&amp;guid=ON&amp;script=0"/>
+  </div>
+  </noscript>
+<script>
+  goog_snippet_vars = function() {
+    var w = window;
+    w.google_conversion_id = 871856497;
+    w.google_conversion_label = "y_NuCP-I-2oQ8fLdnwM";
+    w.google_remarketing_only = false;
+  }
+  // DO NOT CHANGE THE CODE BELOW.
+  goog_report_conversion = function(url) {
+    goog_snippet_vars();
+    window.google_conversion_format = "3";
+    var opt = new Object();
+    opt.onload_callback = function() {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    }
+    var conv_handler = window['google_trackConversion'];
+    if (typeof(conv_handler) == 'function') {
+      conv_handler(opt);
+    }
+  }
+</script>
+<script src='//www.googleadservices.com/pagead/conversion_async.js'></script>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '466739646818645',
+      xfbml      : true,
+      version    : 'v2.3'
+    });
+  };
+  
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+  // Load fonts async
+  // Preloaded in _standard_headers.haml
+  (function() {
+    var css;
+    css = document.createElement('link');
+    css.href = 'https://use.fontawesome.com/releases/v5.14.0/css/all.css';
+    css.rel = 'stylesheet';
+    css.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(css);
+  
+    css = document.createElement('link');
+    css.href = 'https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap';
+    css.rel = 'stylesheet';
+    css.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(css);
+  
+    css = document.createElement('link');
+    css.href = '/crowdcowicon/css/crowdcowicon.css?t=7';
+    css.rel = 'stylesheet';
+    css.type = 'text/css';
+    document.getElementsByTagName('head')[0].appendChild(css);
+  })();
+</script>
+</html>
